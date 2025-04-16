@@ -65,9 +65,6 @@ workflows:
     integrations:
       app_store_connect: codemagic
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: io.codemagic.ivan.Landmarks
       vars:
         BUNDLE_ID: "io.codemagic.ivan.Landmarks"
         XCODE_WORKSPACE: "Landmarks.xcworkspace"
